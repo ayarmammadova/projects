@@ -35,7 +35,7 @@ The project uses **CelebA** (primary dataset) and **DIV2K** (optional) and focus
 
 ---
 
-## 🚀 Final Extension — Model Comparison & Advanced Training
+##  Final Extension — Model Comparison & Advanced Training
 
 After completing Milestone 2, the project was **extended** to include a **comparative study of modern super-resolution models**:
 
@@ -55,7 +55,7 @@ After completing Milestone 2, the project was **extended** to include a **compar
 
 ---
 
-## 🎯 Model Selection Rationale
+## Model Selection Rationale
 
 Although **ESRGAN** achieves competitive **SSIM** values and sharper perceptual results, it requires longer training time and may introduce artifacts.
 
@@ -65,7 +65,7 @@ Although **ESRGAN** achieves competitive **SSIM** values and sharper perceptual 
 * More stable convergence
 * More reliable reconstruction quality
 
-📌 **Final Decision:**
+ **Final Decision:**
 
 * **EDSR is selected as the primary model**
 * **ESRGAN is presented as an extended comparison experiment**
@@ -74,7 +74,7 @@ This decision aligns with common practices in super-resolution research.
 
 ---
 
-## 👥 Team Information
+##  Team Information
 
 **Team Name:** PixelForge
 
@@ -89,7 +89,7 @@ This project was completed as part of a university team.
 - Report writing
   
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 SuperResolution_Project/
@@ -121,7 +121,7 @@ SuperResolution_Project/
 
 ---
 
-## ⚙️ Software Requirements
+##  Software Requirements
 
 Install dependencies with:
 
@@ -143,7 +143,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run the Pipeline
+##  How to Run the Pipeline
 
 ### 1️⃣ Dataset Preparation (Milestone 1)
 
@@ -201,7 +201,7 @@ EDSR is trained using the same dataset and evaluation pipeline and serves as the
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 ### Baseline (Bicubic Interpolation)
 
@@ -225,7 +225,7 @@ Detailed numerical results and visual comparisons are included in the **report/*
 
 ---
 
-## 📦 Notes on Dataset & Storage
+##  Notes on Dataset & Storage
 
 Due to size constraints:
 
@@ -240,7 +240,7 @@ Only **code, notebooks, configuration files, and documentation** are version-con
 
 ---
 
-## 🧠 Use of LLMs
+##  Use of LLMs
 
 Large Language Models (e.g., ChatGPT) were used for:
 
@@ -252,7 +252,7 @@ All outputs were manually reviewed and validated.
 
 ---
 
-## 🎓 Conclusion
+##  Conclusion
 
 This project demonstrates a full super-resolution workflow from dataset preparation to advanced model comparison.
 
