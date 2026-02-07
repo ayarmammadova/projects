@@ -1,11 +1,11 @@
 
-# 🎨 SuperResolution_Project
+#  SuperResolution_Project
 
 **Milestone 1, 2 & Final Project – Dataset Preparation, Baseline & Deep Learning Super-Resolution**
 
 ---
 
-## 🧩 Project Description
+##  Project Description
 
 This project implements a complete **Single Image Super-Resolution (SISR)** pipeline using deep learning.
 The work progresses through **Milestone 1 and Milestone 2**, and is further extended into a **final comparative study of advanced super-resolution models**.
@@ -14,7 +14,7 @@ The project uses **CelebA** (primary dataset) and **DIV2K** (optional) and focus
 
 ---
 
-## ✅ Milestone 1 — Dataset Acquisition & Preparation
+##  Milestone 1 — Dataset Acquisition & Preparation
 
 * Download **CelebA** dataset using Kaggle API
 * Extract and align face images
@@ -24,7 +24,7 @@ The project uses **CelebA** (primary dataset) and **DIV2K** (optional) and focus
 
 ---
 
-## ✅ Milestone 2 — Modeling Pipeline
+##  Milestone 2 — Modeling Pipeline
 
 * Unified **PyTorch Dataset & DataLoader**
 * Baseline super-resolution using **Bicubic Interpolation**
@@ -35,7 +35,7 @@ The project uses **CelebA** (primary dataset) and **DIV2K** (optional) and focus
 
 ---
 
-## 🚀 Final Extension — Model Comparison & Advanced Training
+##  Final Extension — Model Comparison & Advanced Training
 
 After completing Milestone 2, the project was **extended** to include a **comparative study of modern super-resolution models**:
 
@@ -55,7 +55,7 @@ After completing Milestone 2, the project was **extended** to include a **compar
 
 ---
 
-## 🎯 Model Selection Rationale
+##  Model Selection Rationale
 
 Although **ESRGAN** achieves competitive **SSIM** values and sharper perceptual results, it requires longer training time and may introduce artifacts.
 
@@ -73,21 +73,20 @@ Although **ESRGAN** achieves competitive **SSIM** values and sharper perceptual 
 This decision aligns with common practices in super-resolution research.
 
 ---
+## Team Project
 
-## 👥 Team Information
+This project was completed as part of a university team.
 
-**Team Name:** PixelForge
+**My contribution:**
+- ESRGAN experiments
+- Evaluation using PSNR / SSIM
+- Results analysis
+- Report writing
 
-| Member             | Neptun Code |
-| ------------------ | ----------- |
-| Yosr Sellami       | LVYMK8      |
-| Liang Wenlong      | DGED6M       |
-| Lu Yijia           | DX29TC      |
-| Yarmammadova Aysel | Q7K238      |
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 SuperResolution_Project/
@@ -119,7 +118,7 @@ SuperResolution_Project/
 
 ---
 
-## ⚙️ Software Requirements
+##  Software Requirements
 
 Install dependencies with:
 
@@ -141,7 +140,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run the Pipeline
+##  How to Run the Pipeline
 
 ### 1️⃣ Dataset Preparation (Milestone 1)
 
@@ -199,7 +198,7 @@ EDSR is trained using the same dataset and evaluation pipeline and serves as the
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 ### Baseline (Bicubic Interpolation)
 
@@ -223,7 +222,7 @@ Detailed numerical results and visual comparisons are included in the **report/*
 
 ---
 
-## 📦 Notes on Dataset & Storage
+##  Notes on Dataset & Storage
 
 Due to size constraints:
 
@@ -238,7 +237,7 @@ Only **code, notebooks, configuration files, and documentation** are version-con
 
 ---
 
-## 🧠 Use of LLMs
+##  Use of LLMs
 
 Large Language Models (e.g., ChatGPT) were used for:
 
@@ -250,7 +249,7 @@ All outputs were manually reviewed and validated.
 
 ---
 
-## 🎓 Conclusion
+##  Conclusion
 
 This project demonstrates a full super-resolution workflow from dataset preparation to advanced model comparison.
 
