@@ -74,10 +74,6 @@ This decision aligns with common practices in super-resolution research.
 
 ---
 
-##  Team Information
-
-**Team Name:** PixelForge
-
 ## Team Project
 
 This project was completed as part of a university team.
