@@ -1,0 +1,29 @@
+# ----- Core Python Packages -----
+numpy>=1.23
+pillow>=10.0
+matplotlib>=3.7
+tqdm>=4.65
+scikit-image>=0.21
+
+# ----- PyTorch -----
+torch>=2.0
+torchvision>=0.15
+
+# ----- Jupyter Notebook -----
+jupyter
+notebook
+
+# ----- Image Processing -----
+opencv-python>=4.8
+
+# ----- Kaggle API for dataset download -----
+kaggle>=1.6
+
+# ----- Optional: experiment management -----
+tensorboard>=2.14
+
+# ----- For SRGAN training stability -----
+scipy>=1.11
+
+# ----- Others -----
+requests>=2.31
