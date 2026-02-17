@@ -1,4 +1,4 @@
- Super-Resolution Project
+  Super-Resolution Project
 
 Deep learning pipeline for Single Image Super-Resolution (SISR) with dataset preparation, baseline evaluation and comparison of modern SR architectures.
 
