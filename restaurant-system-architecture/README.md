@@ -12,7 +12,7 @@ It demonstrates a modular structure supporting menu browsing, online ordering, c
 
 ⸻
 
- System Architecture
+## System Architecture
 
 restaurant-system/
 ├─ frontend/        # HTML / CSS / JS
@@ -32,7 +32,7 @@ restaurant-system/
 
 ⸻
 
- System Architecture Diagram
+## System Architecture Diagram
 
 flowchart LR
     subgraph FRONTEND [Frontend]
