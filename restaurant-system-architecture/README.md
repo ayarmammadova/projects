@@ -58,34 +58,35 @@ flowchart LR
 
 ⸻
 
- My Contribution — Aysel Yarmemmedova
+## My Contribution — Aysel Yarmemmedova
 
 (Group project — individual responsibilities listed)
-	•	Designed the visual identity (colors, typography, layout consistency)
-	•	Implemented layouts across all website pages and menu sections
-	•	Fixed UI inconsistencies and improved visual coherence
-	•	Updated and optimized images and media content
-	•	Improved usability through hierarchy and spacing adjustments
-	•	Refactored HTML & CSS structure for maintainability
-	•	Performed continuous UI improvements during development
+
+- Designed the visual identity (colors, typography, layout consistency)
+- Implemented layouts across all website pages and menu sections
+- Fixed UI inconsistencies and improved visual coherence
+- Updated and optimized images and media content
+- Improved usability through hierarchy and spacing adjustments
+- Refactored HTML & CSS structure for maintainability
+- Performed continuous UI improvements during development
 
 ⸻
+## Tech Stack
 
- Tech Stack
-	•	Frontend: HTML5, CSS3, JavaScript
-	•	Backend: Flask / Node.js REST API
-	•	Database: SQLite
-	•	Tools: Git, VSCode, PyCharm
+- Frontend: HTML5, CSS3, JavaScript
+- Backend: Flask / Node.js REST API
+- Database: SQLite
+- Tools: Git, VSCode, PyCharm
 
 ⸻
+## Features
 
- Features
-	•	Multi-page navigation
-	•	Dynamic menu display with filters
-	•	Shopping cart management
-	•	Checkout and order summary
-	•	User authentication
-	•	Admin menu and order management
+- Multi-page navigation
+- Dynamic menu display with filters
+- Shopping cart management
+- Checkout and order summary
+- User authentication
+- Admin menu and order management
 
 ⸻
 
