@@ -52,13 +52,16 @@ The project compares reconstruction accuracy vs perceptual sharpness trade-offs.
 
 ## Project Structure
 
+
+```
 SuperResolution_Project/
-├── notebooks/          # Training & preprocessing pipelines
-├── src/                # Dataset loaders and model implementations
-├── experiments/        # Logs and configs
-├── report/             # Final comparison results
+├── notebooks/      # Training & preprocessing pipelines
+├── src/            # Dataset loaders and model implementations
+├── experiments/    # Logs and configs
+├── report/         # Final comparison results
 ├── requirements.txt
 └── README.md
+```
 
 
 ⸻
