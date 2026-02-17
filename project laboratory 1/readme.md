@@ -1,82 +1,80 @@
-⸻
-
-🚦 Traffic Prediction with LSTM & GRU
+# 🚦 Traffic Prediction with LSTM & GRU
 
 Time-series forecasting of urban traffic conditions using recurrent neural networks.
 
-⸻
+---
 
-📖 Overview
+## Overview
 
-This project analyzes real traffic sensor data and predicts traffic speed and flow using deep learning time-series models.
+This project analyzes real traffic sensor data and predicts traffic speed and flow using deep learning models.
 
-The task is formulated as a supervised forecasting problem where future traffic values are predicted from historical measurements.
 Two recurrent neural network architectures are compared:
-	•	LSTM (Long Short-Term Memory)
-	•	GRU (Gated Recurrent Unit)
 
-The goal is to evaluate prediction accuracy and computational efficiency of both models in intelligent transportation systems.
+- LSTM (Long Short-Term Memory)
+- GRU (Gated Recurrent Unit)
 
-⸻
+The goal is to evaluate prediction accuracy and computational efficiency for intelligent transportation systems.
 
-🧠 Models
+---
 
-Model	Description
-LSTM	Captures long-term temporal dependencies using memory cells
-GRU	Simpler gated architecture with lower computational cost
+## Models
+
+| Model | Description |
+|------|------|
+| LSTM | Captures long-term temporal dependencies |
+| GRU | Simpler architecture with lower computational cost |
 
 Result: GRU achieves comparable accuracy with lower complexity.
 
-⸻
+---
 
-⚙️ Methodology
+## Methodology
 
-Data
-	•	Real traffic sensor measurements (speed & flow)
-	•	One month time period
-	•	Time-series forecasting setup
+### Data
+- Real traffic sensor measurements (speed and flow)
+- One month period
+- Time-series forecasting task
 
-Preprocessing
-	•	Train / test split (80 / 20)
-	•	Min-Max normalization
-	•	Sliding window sequence generation
+### Preprocessing
+- Train / test split (80 / 20)
+- Min-Max normalization
+- Sliding window sequences
 
-Training
-	•	Optimizer: Adam
-	•	Input window: 20 time steps
-	•	Regression prediction (next value forecasting)
+### Training
+- Optimizer: Adam
+- Input window: 20 time steps
+- Regression prediction
 
-⸻
+---
 
-📊 Evaluation
+## Evaluation
 
 Metrics:
-	•	RMSE (Root Mean Squared Error)
-	•	MAPE (Mean Absolute Percentage Error)
+- RMSE
+- MAPE
 
+Both models capture temporal patterns with similar accuracy.
 
+---
 
-⸻
+## Key Result
 
-📈 Key Result
+GRU provides similar prediction performance to LSTM while being computationally more efficient.
 
-GRU provided similar prediction performance to LSTM while being computationally more efficient, making it more suitable for real-time traffic forecasting systems.  ￼
+---
 
-⸻
+## Tech Stack
+- Python
+- TensorFlow / Keras
+- NumPy
+- Pandas
+- Matplotlib
+- scikit-learn
 
-🛠️ Tech Stack
-	•	Python
-	•	TensorFlow / Keras
-	•	NumPy, Pandas
-	•	Matplotlib
-	•	scikit-learn
+---
 
-⸻
-
-👤 My Work
-	•	Data preprocessing & normalization
-	•	Time-series window generation
-	•	Model training and comparison
-	•	Evaluation and analysis
-
-
+## My Work
+- Data preprocessing
+- Sequence generation
+- Model training
+- Evaluation and analysis
