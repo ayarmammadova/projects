@@ -14,6 +14,7 @@ It demonstrates a modular structure supporting menu browsing, online ordering, c
 
 ## System Architecture
 
+```
 restaurant-system/
 ├─ frontend/        # HTML / CSS / JS
 │   ├─ public/      # Main pages (index, restaurant, login, etc.)
@@ -28,6 +29,7 @@ restaurant-system/
 │   │   └─ users.py # /api/users
 │   └─ ...
 └─ README.md
+```
 
 
 ⸻
